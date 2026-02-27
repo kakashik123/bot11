@@ -8,7 +8,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 logging.basicConfig(level=logging.INFO)
 
 # --- КОНФИГУРАЦИЯ ---
-API_TOKEN = '8684045150:AAGh6EbfYPIQZXr2J2osGuMh0QoJa5Ss9_w'
+API_TOKEN = '8670035869:AAEkJ95Jpcsqqp06zHnsh1Ch5BtfdqbyP4o'
 OWNER_ID = 7458899849  # ВАШ ID (узнать в @userinfobot)
 
 bot = Bot(token=API_TOKEN)
@@ -145,4 +145,5 @@ async def main():
     await dp.start_polling(bot)
 
 if __name__ == '__main__':
+
     asyncio.run(main())
